@@ -1,0 +1,51 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para los contenedores de Pokémon */
+#pokemonInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Estilos para cada tarjeta de Pokémon */
+#pokemonInfo div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las imágenes de Pokémon */
+#pokemonInfo img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.musiquita {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 50px;
+    width: 200px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+}
